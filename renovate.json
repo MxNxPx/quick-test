@@ -16,7 +16,7 @@
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "rebaseWhen": "conflicted",
   "commitBodyTable": true,
-  "ignorePaths": ["archive/**"],
+  "ignorePaths": ["archive/**, ARCHIVE/**"],
   "suppressNotifications": ["prIgnoreNotification"],
   "helm-values": {
     "fileMatch": ["./.+\\.yaml$"]
