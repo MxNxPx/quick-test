@@ -58,7 +58,11 @@
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
       "extra-files": [
-         "/bundle/uds-bundle.yaml"
+        { 
+          "type": "yaml",
+          "path": "/bundle/uds-bundle.yaml",
+          "jsonpath": "$.metadata.version"
+        }
       ]
     }
   },
