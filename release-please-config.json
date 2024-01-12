@@ -1,5 +1,26 @@
 {
   "packages": {
+    ".": {
+      "changelog-path": "CHANGELOG.md",
+      "changelog-sections": [
+        { "type": "feat", "section": "Features", "hidden": false },
+        { "type": "fix", "section": "Bug Fixes", "hidden": false },
+        { "type": "chore", "section": "Miscellaneous", "hidden": false }
+      ],
+      "release-type": "simple",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": false,
+      "versioning": "default",
+      "prerelease": false,
+      "extra-files": [
+        { 
+          "type": "yaml",
+          "path": "/bundle/uds-bundle.yaml",
+          "jsonpath": "$.metadata.version"
+        }
+      ]
+    },
     "test": {
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
@@ -43,27 +64,6 @@
           "type": "yaml",
           "path": "/bundle/uds-bundle.yaml",
           "jsonpath": "$.packages[1].ref"
-        }
-      ]
-    },
-    ".": {
-      "changelog-path": "CHANGELOG.md",
-      "changelog-sections": [
-        { "type": "feat", "section": "Features", "hidden": false },
-        { "type": "fix", "section": "Bug Fixes", "hidden": false },
-        { "type": "chore", "section": "Miscellaneous", "hidden": false }
-      ],
-      "release-type": "simple",
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": true,
-      "draft": false,
-      "versioning": "default",
-      "prerelease": false,
-      "extra-files": [
-        { 
-          "type": "yaml",
-          "path": "/bundle/uds-bundle.yaml",
-          "jsonpath": "$.metadata.version"
         }
       ]
     }
