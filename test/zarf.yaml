@@ -1,13 +1,12 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/defenseunicorns/zarf/main/zarf.schema.json
 kind: ZarfPackageConfig
 metadata:
-  name: dubbd-aws-external-dns-helm-chart
-  description: "Defense Unicorns Big Bang Distro - External DNS Helm Chart"
+  name: test
+  description: "test"
   # x-release-please-start-version
-  version: "0.3.0"
+  version: "0.0.1"
   # x-release-please-end
   url: https://github.com/kubernetes-sigs/external-dns
-  # Big Bang / Iron Bank are only amd64
   architecture: amd64
   
 variables:
@@ -30,8 +29,8 @@ components:
         version: 1.12.2
         namespace: external-dns
         releaseName: external-dns
-        valuesFiles:
-        - ../values/aws-external-dns.yaml
+#        valuesFiles:
+#        - ../values/aws-external-dns.yaml
     images:
       # renovate: datasource=docker
       - registry1.dso.mil/ironbank/external-dns:v0.11.0
