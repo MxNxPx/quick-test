@@ -31,6 +31,7 @@ components:
         version: 1.12.2
         namespace: external-dns
         releaseName: external-dns
+#TODO
 #        valuesFiles:
 #        - ../values/aws-external-dns.yaml
     images:
