@@ -15,10 +15,10 @@
       "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
-        "zarf.yaml",
+        "test/zarf.yaml",
         { 
           "type": "yaml",
-          "path": "../bundle/uds-bundle.yaml",
+          "path": "bundle/uds-bundle.yaml",
           "jsonpath": "$.packages.[0].ref"
         }
       ]
@@ -38,10 +38,10 @@
       "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
-        "zarf.yaml",
+        "test-2/zarf.yaml",
         { 
           "type": "yaml",
-          "path": "../bundle/uds-bundle.yaml",
+          "path": "bundle/uds-bundle.yaml",
           "jsonpath": "$.packages.[1].ref"
         }
       ]
