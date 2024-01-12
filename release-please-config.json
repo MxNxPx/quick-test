@@ -19,7 +19,7 @@
         { 
           "type": "yaml",
           "path": "/bundle/uds-bundle.yaml",
-          "jsonpath": "$.packages.[0].ref"
+          "jsonpath": "$.packages[0].ref"
         }
       ]
     },
@@ -42,7 +42,7 @@
         { 
           "type": "yaml",
           "path": "/bundle/uds-bundle.yaml",
-          "jsonpath": "$.packages.[1].ref"
+          "jsonpath": "$.packages[1].ref"
         }
       ]
     },
