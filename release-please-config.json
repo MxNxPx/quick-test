@@ -2,15 +2,19 @@
 {
   "packages": {
     "test": {
-      "release-type": "simple",
-      "draft": false,
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
         { "type": "feat", "section": "Features", "hidden": false },
         { "type": "fix", "section": "Bug Fixes", "hidden": false },
         { "type": "chore", "section": "Miscellaneous", "hidden": false }
       ],
+      "release-type": "simple",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": false,
       "versioning": "prerelease",
+      "prerelease": true,
+      "prerelease-type": "uds",
       "extra-files": [
         "zarf.yaml",
         { 
@@ -21,15 +25,19 @@
       ]
     },
     "test-2": {
-      "release-type": "simple",
-      "draft": false,
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
         { "type": "feat", "section": "Features", "hidden": false },
         { "type": "fix", "section": "Bug Fixes", "hidden": false },
         { "type": "chore", "section": "Miscellaneous", "hidden": false }
       ],
+      "release-type": "simple",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": false,
       "versioning": "prerelease",
+      "prerelease": true,
+      "prerelease-type": "uds",
       "extra-files": [
         "zarf.yaml",
         { 
@@ -50,9 +58,6 @@
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
-      "versioning": "prerelease",
-      "prerelease": true,
-      "prerelease-type": "uds",
       "extra-files": [
          "bundle/uds-bundle.yaml"
       ]
