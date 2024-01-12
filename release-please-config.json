@@ -18,7 +18,7 @@
         "test/zarf.yaml",
         { 
           "type": "yaml",
-          "path": "bundle/uds-bundle.yaml",
+          "path": "/bundle/uds-bundle.yaml",
           "jsonpath": "$.packages.[0].ref"
         }
       ]
@@ -41,7 +41,7 @@
         "test-2/zarf.yaml",
         { 
           "type": "yaml",
-          "path": "bundle/uds-bundle.yaml",
+          "path": "/bundle/uds-bundle.yaml",
           "jsonpath": "$.packages.[1].ref"
         }
       ]
@@ -58,7 +58,7 @@
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
       "extra-files": [
-         "bundle/uds-bundle.yaml"
+         "/bundle/uds-bundle.yaml"
       ]
     }
   },
