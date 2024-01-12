@@ -57,6 +57,8 @@
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
+      "versioning": "default",
+      "prerelease": false,
       "extra-files": [
         { 
           "type": "yaml",
