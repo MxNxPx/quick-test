@@ -18,6 +18,7 @@ variables:
 - name: ARN
   description: "ARN"
 
+# this is a zarf component
 components:
   - name: external-dns-chart
     required: true
