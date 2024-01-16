@@ -2,11 +2,11 @@ kind: UDSBundle
 metadata:
   name: test-bundle
   description: A UDS bundle for testing
-  version: 0.2.0-uds.0
+  version: 0.1.0-uds.0
 packages:
   - name: test
     path: ../test
-    ref: 0.1.1-uds.0
+    ref: 0.1.0-uds.0
   - name: gitlab-postgres
     path: ../test-2
-    ref: 0.1.2-uds.0
+    ref: 0.1.0-uds.0
