@@ -6,7 +6,7 @@ metadata:
 packages:
   - name: test
     path: ../test
-    ref: 0.0.1-uds.3
+    ref: 0.0.1-uds.4
   - name: gitlab-postgres
     path: ../test-2
     ref: 0.0.1-uds.2
