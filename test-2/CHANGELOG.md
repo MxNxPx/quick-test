@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.0-uds.0](https://github.com/MxNxPx/quick-test/compare/v0.1.0-uds.0...v0.2.0-uds.0) (2024-01-16)
+
+
+### Features
+
+* set specific verz ([#44](https://github.com/MxNxPx/quick-test/issues/44)) ([d43ba0b](https://github.com/MxNxPx/quick-test/commit/d43ba0b38538c5062de53f30cca496b38b691c3e))
+* update versions to not match ([#42](https://github.com/MxNxPx/quick-test/issues/42)) ([8232423](https://github.com/MxNxPx/quick-test/commit/82324238d18dce090b1967ec802f271cbf01c348))
+
+
+### Bug Fixes
+
+* use version.txt files and correct versions ([#46](https://github.com/MxNxPx/quick-test/issues/46)) ([01d6f3b](https://github.com/MxNxPx/quick-test/commit/01d6f3b0be1f3b2ec30828b028022b609aaf8a93))
+
+
+### Miscellaneous
+
+* release 0.2.0-uds.0 ([#47](https://github.com/MxNxPx/quick-test/issues/47)) ([e75d3ac](https://github.com/MxNxPx/quick-test/commit/e75d3aceadd2c3b03fb9ba22c7f2fa77dcdeacd6))
+* release main ([#43](https://github.com/MxNxPx/quick-test/issues/43)) ([552e3ab](https://github.com/MxNxPx/quick-test/commit/552e3abbc9c3934054ece4757de80ecc67a810b3))
+* release main ([#45](https://github.com/MxNxPx/quick-test/issues/45)) ([a3e3095](https://github.com/MxNxPx/quick-test/commit/a3e3095162ae10ce12bd315d6e2071d1358da317))
+
 ## [0.1.0-uds.0](https://github.com/MxNxPx/quick-test/compare/v0.1.2-uds.0...v0.1.0-uds.0) (2024-01-16)
 
 
