@@ -11,8 +11,9 @@
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
-      "versioning": "default",
-      "prerelease": false,
+      "versioning": "prerelease",
+      "prerelease": true,
+      "prerelease-type": "uds",
       "extra-files": [
         { 
           "type": "yaml",
@@ -36,7 +37,7 @@
       "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
-        "test/zarf.yaml",
+        "zarf.yaml",
         { 
           "type": "yaml",
           "path": "/bundle/uds-bundle.yaml",
@@ -59,7 +60,7 @@
       "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
-        "test-2/zarf.yaml",
+        "zarf.yaml",
         { 
           "type": "yaml",
           "path": "/bundle/uds-bundle.yaml",
