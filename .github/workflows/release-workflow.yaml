@@ -20,12 +20,16 @@ jobs:
         run: echo "release_created=${{ steps.tag.outputs.release_created || false }}" >> $GITHUB_OUTPUT 
       - id: release-tag
         run: echo "release_tag=${{ steps.tag.outputs.version || false }}" >> $GITHUB_OUTPUT 
+      - id: release-debug
+        run: echo "$GITHUB_CONTEXT"
 
   publish-release:
     needs: tag-new-version
     if: ${{ needs.tag-new-version.outputs.release_created == 'true'}}
     runs-on: ubuntu-latest
     steps:
+      - id: publish-debug
+        run: echo "$GITHUB_CONTEXT"
       - name: Publish Release Artifact
         id: echo-release
         run: echo "RELEASE ARTIFACT WILL BE CREATED AT THIS POINT"
