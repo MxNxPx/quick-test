@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1-uds.4](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.3...v0.0.1-uds.4) (2024-01-16)
+
+
+### Miscellaneous
+
+* release main ([#36](https://github.com/MxNxPx/quick-test/issues/36)) ([48d2486](https://github.com/MxNxPx/quick-test/commit/48d24863dba03c5b52f68e41c009e60110ee9576))
+
 ## [0.0.1-uds.3](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.2...v0.0.1-uds.3) (2024-01-16)
 
 
