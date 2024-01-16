@@ -9,7 +9,7 @@ metadata:
   url: https://github.com/kubernetes-sigs/external-dns
   architecture: amd64
 
-# these are zar variables
+# zarf variables
 variables:
 - name: DOMAIN
   description: "Name of domain to use for the DNS zone"
@@ -19,7 +19,7 @@ variables:
 - name: ARN
   description: "ARN"
 
-# these are zarf components
+# zarf components
 components:
   - name: external-dns-chart
     required: true
