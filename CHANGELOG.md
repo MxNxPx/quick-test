@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1-uds.4](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.3...v0.0.1-uds.4) (2024-01-16)
+
+
+### Features
+
+* add repo's reason to exist ([#37](https://github.com/MxNxPx/quick-test/issues/37)) ([4c466df](https://github.com/MxNxPx/quick-test/commit/4c466df7ed4261a2664d92e74d1b63f3b54267d5))
+
 ## [0.0.1-uds.3](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.2...v0.0.1-uds.3) (2024-01-16)
 
 
