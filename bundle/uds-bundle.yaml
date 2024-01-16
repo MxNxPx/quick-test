@@ -2,7 +2,7 @@ kind: UDSBundle
 metadata:
   name: test-bundle
   description: A UDS bundle for testing
-  version: 0.1.0-uds.0
+  version: 0.0.1-uds.1
 packages:
   - name: test
     path: ../test
