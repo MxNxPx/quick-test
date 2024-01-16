@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.1-uds.2](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.1...v0.0.1-uds.2) (2024-01-16)
+
+
+### Features
+
+* now with more comments ([#32](https://github.com/MxNxPx/quick-test/issues/32)) ([1f26465](https://github.com/MxNxPx/quick-test/commit/1f26465ff4414125a66840c6123a9d4b35fd8171))
+
 ## [0.0.1-uds.1](https://github.com/MxNxPx/quick-test/compare/v0.0.1-uds.1...v0.0.1-uds.1) (2024-01-16)
 
 
