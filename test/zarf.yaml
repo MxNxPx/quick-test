@@ -4,7 +4,7 @@ metadata:
   name: test
   description: "test"
   # x-release-please-start-version
-  version: "0.0.1-uds.2"
+  version: "0.0.1-uds.3"
   # x-release-please-end
   url: https://github.com/kubernetes-sigs/external-dns
   architecture: amd64
