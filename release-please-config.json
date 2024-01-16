@@ -12,7 +12,6 @@
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
       "versioning": "prerelease",
-      "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
         "zarf.yaml",
@@ -35,7 +34,6 @@
       "bump-patch-for-minor-pre-major": true,
       "draft": false,
       "versioning": "prerelease",
-      "prerelease": true,
       "prerelease-type": "uds",
       "extra-files": [
         "zarf.yaml",
