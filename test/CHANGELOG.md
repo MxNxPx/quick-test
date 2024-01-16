@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0-uds.1](https://github.com/MxNxPx/quick-test/compare/v0.2.0-uds.0...v0.2.0-uds.1) (2024-01-16)
+
+
+### Bug Fixes
+
+* diff verz for pkgz again ([#49](https://github.com/MxNxPx/quick-test/issues/49)) ([4407c37](https://github.com/MxNxPx/quick-test/commit/4407c3721098bce2da181de6539a303aacfe7845))
+
+
+### Miscellaneous
+
+* release main ([#50](https://github.com/MxNxPx/quick-test/issues/50)) ([8fa9799](https://github.com/MxNxPx/quick-test/commit/8fa9799b8a3517035522bc9b3f5193d976cfad0d))
+
 ## [0.2.0-uds.0](https://github.com/MxNxPx/quick-test/compare/v0.5.1-uds.0...v0.2.0-uds.0) (2024-01-16)
 
 
