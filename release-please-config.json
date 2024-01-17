@@ -1,6 +1,6 @@
 {
   "packages": {
-    "test": {
+    ".": {
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
         { "type": "feat", "section": "Features", "hidden": false },
@@ -14,34 +14,9 @@
       "versioning": "prerelease",
       "prerelease-type": "uds",
       "extra-files": [
-        "zarf.yaml",
-        { 
-          "type": "yaml",
-          "path": "/bundle/uds-bundle.yaml",
-          "jsonpath": "$.packages[0].ref"
-        }
-      ]
-    },
-    "test-2": {
-      "changelog-path": "CHANGELOG.md",
-      "changelog-sections": [
-        { "type": "feat", "section": "Features", "hidden": false },
-        { "type": "fix", "section": "Bug Fixes", "hidden": false },
-        { "type": "chore", "section": "Miscellaneous", "hidden": false }
-      ],
-      "release-type": "simple",
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": true,
-      "draft": false,
-      "versioning": "prerelease",
-      "prerelease-type": "uds",
-      "extra-files": [
-        "zarf.yaml",
-        { 
-          "type": "yaml",
-          "path": "/bundle/uds-bundle.yaml",
-          "jsonpath": "$.packages[1].ref"
-        }
+        "test/zarf.yaml",
+        "test-2/zarf.yaml",
+        "bundle/uds-bundle.yaml"
       ]
     }
   },
