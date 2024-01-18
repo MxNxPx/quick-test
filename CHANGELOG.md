@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0-uds.4](https://github.com/MxNxPx/quick-test/compare/v0.2.0-uds.3...v0.2.0-uds.4) (2024-01-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* docs are SOOOO diff now ([#58](https://github.com/MxNxPx/quick-test/issues/58))
+
+### Features
+
+* docs are SOOOO diff now ([#58](https://github.com/MxNxPx/quick-test/issues/58)) ([98bcb37](https://github.com/MxNxPx/quick-test/commit/98bcb373a50463dedc3e12e8e3894370d76513aa))
+
 ## [0.2.0-uds.3](https://github.com/MxNxPx/quick-test/compare/v0.2.0-uds.2...v0.2.0-uds.3) (2024-01-17)
 
 
