@@ -2,4 +2,6 @@
 
 repo for me to (kinda) quickly test things...
 
-namely versioning things, using release-please via GHA
+namely versioning things, using release-please via GHA...
+
+nothing to see here, move along.
