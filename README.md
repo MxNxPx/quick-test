@@ -1,7 +1,7 @@
-# quick-test
-
 > [!IMPORTANT]  
 > This is a test repo, use at your own risk!
+
+# quick-test
 
 this repo is for me to (kinda) quickly-ish test things in a "safe" space...
 
