@@ -1,6 +1,6 @@
 # quick-test
 
-> [!WARNING:THIS IS A WARNING]  
+> [!IMPORTANT]  
 > This is a test repo, use at your own risk!
 
 this repo is for me to (kinda) quickly-ish test things in a "safe" space...
