@@ -1,5 +1,6 @@
 > [!IMPORTANT]  
-> This is a test repo, use at your own risk!
+> This is a test repo.
+> Use at your own risk!
 
 # quick-test
 
