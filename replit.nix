@@ -10,3 +10,4 @@
     pkgs.unzip
     pkgs.wget
   ];
+}
