@@ -1,1 +1,1 @@
-echo "${GREETING}"
+echo "Welcome!" | cowsay
