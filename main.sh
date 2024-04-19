@@ -1,1 +1,1 @@
-echo "Welcome!" | cowsay
+echo "Welcome"

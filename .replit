@@ -1,6 +1,6 @@
 language = "bash"
-run = "bash setup.sh && bash main.sh"
-entrypoint = "main.sh"
+run = "bash main.sh"
+entrypoint = "GREETING.md"
 
 [nix]
 channel = "stable-23_11"
