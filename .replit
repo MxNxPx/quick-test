@@ -1,13 +1,9 @@
 language = "bash"
 run = "bash main.sh"
-entrypoint = "main.sh"
-
-[nix]
-channel = "stable-23_05"
+entrypoint = "GREETING.md"
 
 [deployment]
 run = ["bash", "main.sh"]
-deploymentTarget = "cloudrun"
 
 [env]
 GREETING = "Hello from Defense Unicorns!"
