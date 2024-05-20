@@ -36,4 +36,4 @@ components:
 #        - ../values/aws-external-dns.yaml
     images:
       # renovate: datasource=docker
-      - registry1.dso.mil/ironbank/external-dns:v0.14.0
+      - registry1.dso.mil/ironbank/external-dns:v0.14.2
