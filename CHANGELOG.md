@@ -1,5 +1,45 @@
 # Changelog
 
+## [0.2.3-uds.1](https://github.com/MxNxPx/quick-test/compare/v0.2.0-uds.4...v0.2.3-uds.1) (2025-02-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* add a warning to the repo
+
+### Features
+
+* add replit stuff ([3a70c86](https://github.com/MxNxPx/quick-test/commit/3a70c869a31d452c8374a7d2317cf1edc95b1756))
+* adding what to do ([#64](https://github.com/MxNxPx/quick-test/issues/64)) ([2bcd248](https://github.com/MxNxPx/quick-test/commit/2bcd24856db5e81d4e415eaefdc3706b1ed52d6a))
+* be safe out there ([#66](https://github.com/MxNxPx/quick-test/issues/66)) ([94c3f0c](https://github.com/MxNxPx/quick-test/commit/94c3f0c613596fe721a78bf4b16e35424fba4559))
+* docs clarify its use ([#60](https://github.com/MxNxPx/quick-test/issues/60)) ([0c25879](https://github.com/MxNxPx/quick-test/commit/0c258796830e70d2594f5964174da5353b21fa06))
+* more ok ([#70](https://github.com/MxNxPx/quick-test/issues/70)) ([99d23ed](https://github.com/MxNxPx/quick-test/commit/99d23ed08fbe0d3c447edced75057f4e054c1e83))
+
+
+### Bug Fixes
+
+* add a ly ([#72](https://github.com/MxNxPx/quick-test/issues/72)) ([3a62d4f](https://github.com/MxNxPx/quick-test/commit/3a62d4fbf5c67940f520e1724825f7d0ccbd2265))
+* emphasize ([#65](https://github.com/MxNxPx/quick-test/issues/65)) ([3e2ee7e](https://github.com/MxNxPx/quick-test/commit/3e2ee7e2785a4d4792c16b16937d3e66fd913c76))
+* language ([#69](https://github.com/MxNxPx/quick-test/issues/69)) ([bafde43](https://github.com/MxNxPx/quick-test/commit/bafde43b583ba54b2269a9f7a17aff23866e5757))
+* less ok ([#71](https://github.com/MxNxPx/quick-test/issues/71)) ([45f1307](https://github.com/MxNxPx/quick-test/commit/45f130760c6a27998c2b6e97b1f8ec1baaea6174))
+* more accurate desc ([#63](https://github.com/MxNxPx/quick-test/issues/63)) ([344d3b9](https://github.com/MxNxPx/quick-test/commit/344d3b9369c48c15dcb11591c649f28c848b94ba))
+* more tweaks ([b003ce8](https://github.com/MxNxPx/quick-test/commit/b003ce8f5735f2992a375406cf5545ba0923a9bc))
+* more tweaks to replit ([22ffb4b](https://github.com/MxNxPx/quick-test/commit/22ffb4b8e5eb9b83cf8cbeb34c1e9b7fece9c7ae))
+* nix the ly ([#73](https://github.com/MxNxPx/quick-test/issues/73)) ([4c707be](https://github.com/MxNxPx/quick-test/commit/4c707be566de11246cb9085e585c45d5eb6e8077))
+* now with more -ish ([#67](https://github.com/MxNxPx/quick-test/issues/67)) ([82e9906](https://github.com/MxNxPx/quick-test/commit/82e99060c5917ad0d1f4785b1c78e737feed01d0))
+* things ([#74](https://github.com/MxNxPx/quick-test/issues/74)) ([70715ca](https://github.com/MxNxPx/quick-test/commit/70715ca3db348413d47028dd1ed586b5eb8ac5ef))
+* try to fix replit again ([e6320d1](https://github.com/MxNxPx/quick-test/commit/e6320d1fd1dd4845198147dcb3d3d11a51f767ce))
+* update replit ([2deb537](https://github.com/MxNxPx/quick-test/commit/2deb53733a25f768e0e615302c1b22640d9fae00))
+* update wording ([#62](https://github.com/MxNxPx/quick-test/issues/62)) ([28e4a80](https://github.com/MxNxPx/quick-test/commit/28e4a807440376b14c613ed61b59a9791f3cde9e))
+* words hrad ([#75](https://github.com/MxNxPx/quick-test/issues/75)) ([a4973c9](https://github.com/MxNxPx/quick-test/commit/a4973c9404a7ac7752c16244c5d878728db6bdb8))
+
+
+### Miscellaneous
+
+* add a warning to the repo ([3e40b04](https://github.com/MxNxPx/quick-test/commit/3e40b04ba9e32c609a25acb675ca9451d6e1edb0))
+* **deps:** update docker image registry1.dso.mil/ironbank/external-dns to v0.14.0 ([#2](https://github.com/MxNxPx/quick-test/issues/2)) ([7b6ab58](https://github.com/MxNxPx/quick-test/commit/7b6ab58b0c3598ea2d849c155f994638dc249352))
+* **deps:** update helm chart external-dns to v1.14.3 ([#3](https://github.com/MxNxPx/quick-test/issues/3)) ([9219d73](https://github.com/MxNxPx/quick-test/commit/9219d73c8aff85d242f35720b9fc14962b7a4b7f))
+
 ## [0.2.0-uds.4](https://github.com/MxNxPx/quick-test/compare/v0.2.0-uds.3...v0.2.0-uds.4) (2024-01-18)
 
 
