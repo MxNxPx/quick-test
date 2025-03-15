@@ -1,0 +1,58 @@
+# Update the image list and target registry below to run workflow
+name: Trigger Transfers of Images
+
+on:
+  push:
+    branches:
+      - main
+  # Chainguard images appear to update every morning around 0300 EST
+  # so this will get the latest images pushed to ECR
+  schedule:
+    - cron: '0 10 * * *'  # 0500 EST daily
+
+permissions:
+  contents: read
+  id-token: write # This is needed for OIDC federation.
+
+jobs:
+  check_changes:
+    runs-on: ubuntu-latest
+    outputs:
+      image_changes: ${{ steps.changes.outputs.image }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Check paths
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
+        id: check_changes
+        with:
+          filters: |
+            image:
+              - '.github/workflows/trigger-docker-image.yaml'
+              - '.github/actions/transfer-docker-image/**'
+
+      - name: Find Images
+        id: find-images
+        run: |
+          images=$(awk '{printf "%s\"%s\"", (NR==1?"":", "), $0}' images.txt)
+          echo "images=[$images]" >> "$GITHUB_OUTPUT"
+
+  transfer-images:
+    needs: define-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        source_image: ${{ fromJSON(needs.define-matrix.outputs.images) }}
+
+    steps:
+      - name: Set target image from source image
+        id: set_target_image
+        run: |
+          export SHORT_IMAGE=$(echo "${{ matrix.source_image }}" | sed "s/cgr.dev\/du-uds-defenseunicorns\///")
+          export TARGET_REGISTRY="CONTAINER_REGISTRY_GOES_HERE"
+          export SOURCE_IMAGE="${{ matrix.source_image }}"
+          export TARGET_IMAGE="$TARGET_REGISTRY/unicorn/cgr/$SHORT_IMAGE"
+          echo "Source image is: $SOURCE_IMAGE"
+          echo "Short image is: $SHORT_IMAGE"
+          echo "Target image is: $TARGET_IMAGE"
