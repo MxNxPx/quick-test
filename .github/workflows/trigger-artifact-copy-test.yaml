@@ -3,8 +3,8 @@ name: Trigger Transfers of Images
 
 on:
   push:
-    branches:
-      - main
+#    branches:
+#      - main
   # Chainguard images appear to update every morning around 0300 EST
   # so this will get the latest images pushed to ECR
   schedule:
